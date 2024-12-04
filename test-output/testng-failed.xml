@@ -5,8 +5,8 @@
     <classes>
       <class name="test.CustomerDashboardTest">
         <methods>
+          <include name="verifyRescheduleNextOrderDate"/>
           <include name="launchBrowser"/>
-          <include name="cancelContract"/>
         </methods>
       </class> <!-- test.CustomerDashboardTest -->
     </classes>

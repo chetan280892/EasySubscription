@@ -11,7 +11,7 @@ public class OpenBrowser {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://esa-indore-4.myshopify.com/?_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaDlsYzJFdGFXNWtiM0psTFRRdWJYbHphRzl3YVdaNUxtTnZiUVk2QmtWVSIsImV4cCI6IjIwMjQtMTEtMDVUMTU6MTE6MzYuNTkyWiIsInB1ciI6InBlcm1hbmVudF9wYXNzd29yZF9ieXBhc3MifX0%3D--b2345b4504ced73b14547f9a7738bf64fec96001");
+		driver.get("https://esa-indore-4.myshopify.com/?_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaDlsYzJFdGFXNWtiM0psTFRRdWJYbHphRzl3YVdaNUxtTnZiUVk2QmtWVSIsImV4cCI6IjIwMjQtMTEtMThUMTA6Mjc6MDkuODU2WiIsInB1ciI6InBlcm1hbmVudF9wYXNzd29yZF9ieXBhc3MifX0%3D--7ff10e1c28c3851770fec719738c8580717806a9");
 		return driver;
 	}
 }
